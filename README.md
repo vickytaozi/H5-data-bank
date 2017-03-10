@@ -1,7 +1,6 @@
 
-学习H5的过程如同龟兔赛跑的过程
-| ------------- |:-------------:| :-------------:| :-------------:| -----:|
-引人requirejs注意点：
+##引人requirejs注意点：
+
 1.路径，配置接口文件config( )方法
 2.按需加载
 3.不能保证哪个先加载的情况，使用嵌套
@@ -12,7 +11,7 @@ RequireJS常用的方法：
 2.requirejs
 3.define
 
-步骤：
+##步骤：
 1.首先是下载（http://www.requirejs.cn/docs/download.html）引人require.js 文件
 再把入口文件data-main='' js/main'' 这里不需要.js
 代码：
@@ -59,14 +58,14 @@ Requirejs(['jquery','validate'],function($,validate) {
 
 
 
-使用shim 插件
+##使用shim 插件
 配置一个shim 的文件
 Shim:{
 	Exports:"jQuery.fn.sroll"
 }
 
 
-模块化开发的优点：
+##模块化开发的优点：
 避免命名冲突
 更好的依赖处理
 按需加载
