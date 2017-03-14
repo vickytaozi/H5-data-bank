@@ -1,8 +1,8 @@
 :smiley_cat:_These share data are from my usual work and learning，hoping to help you，If you like you can star_
-JavaScript 资源大全中文版
+##JavaScript 资源大全中文版
 我想很多程序员应该记得 GitHub 上有一个 Awesome - XXX 系列的资源整理。awesome-javascript 是 sorrycc 发起维护的 JS 资源列表，内容包括：包管理器、加载器、测试框架、运行器、QA、MVC框架和库、模板引擎、数据可视化、时间轴、编辑器等等
 
-包管理器
+##包管理器
 
 管理着 JavaScript 库，并提供读取和打包它们的工具。
 
@@ -15,7 +15,7 @@ jspm：流畅的浏览器包管理器。官网
 Ender：没有库文件的程序库。官网
 volo：以项目模板、添加依赖项与自动化生成的方式创建前端项目。官网 
 Duo：一个整合 Component、Browserify 和 Go 官网的最佳思想，使开发者能快速方便地组织和编写前端代码的下一代包管理器。
-加载器
+##加载器
 
 JavaScript 的模块或加载系统。
 
@@ -30,12 +30,12 @@ systemjs：AMD、CJS（commonJS） 和符合 ES6 规范的模块加载器。官�
 LodJS：基于 AMD 的模块加载器。官网
 ESL：浏览器端的模块加载器，支持延迟定义和 AMD。官网
 modulejs：轻量的 JavaScript 模块系统。官网
-打包工具
+##打包工具
 
 browserify ：Browserify 让你能在浏览器端使用 require('modules') ，打包所有依赖。官网
 webpack：为浏览器打包 CommonJs/AMD 模块。官网
 gulp：用自动化构建工具增强你的工作流程！官网
-测试框架
+##测试框架
 
 框架
 
@@ -45,18 +45,18 @@ qunit：一个易于使用的 JavaScript 单元测试框架。官网
 jest：简单的 JavaScript 单元测试框架。官网
 prova：基于 Tape 和 Browserify 的测试运行器，它适用于 Node & 浏览器。官网
 DalekJS：自动化且跨浏览器的 JavaScript 功能测试框架。官网
-断言
+##断言
 
 chai：适用于 node.js 和浏览器的 BDD / TDD 断言框架，并能搭配其它测试框架使用。官网
 Sinon.JS：对 JavaScript 进行 spies、stubs 和 mock 测试。官网
 expect.js：简约的、适用于 Node.js 和浏览器端的 BDD 式断言工具。官网
 should.js：适用于 Node.js 的 BDD 式断言工具。官网
-覆盖率
+##覆盖率
 
 istanbul：另一个 JS 代码覆盖率检测工具。官网
 blanket：一个简单的代码覆盖率检测库。它的设计理念是易于安装和使用，且可用于浏览器端和 node.js。官网
 JSCover：JSCover 是一个检测 JavaScript 程序代码覆盖率的工具。官网
-运行器
+##运行器
 
 phantomjs：脚本化的 Headless WebKit。官网
 slimerjs：一个内核为 Gecko 的类似 PhantomJS 工具。官网
@@ -67,7 +67,7 @@ karma：一个优秀的的 JavaScript 测试运行器。官网
 nightwatch：基于 node.js 和 selenium webdriver 的图形界面自动化测试框架。官网
 intern：下一代 JavaScript 代码测试栈。官网
 yolpo：在浏览器逐句执行的 JavaScript 解释器。官网
-QA 工具
+##QA 工具
 
 JSHint：JSHint 是一个有助于发现 JavaScript 代码错误和潜在问题的工具。官网
 jscs：JavaScript 代码风格检测工具。官网
@@ -76,7 +76,7 @@ jsinspect：检测复制粘贴和结构类似的代码。官网
 buddy.js：发现 JavaScript 代码里的 魔术数字。官网
 ESLint：完全插件化的工具，能在 JavaScript 中识别和记录模式。官网
 JSLint ：高标准、严格和固执的代码质量工具，旨在只保持语言的优良部分。官网
-MVC 框架和库
+##MVC 框架和库
 
 angular.js：为网络应用增强 HTML。官网
 aurelia：一个适用于移动设备、桌面电脑和 web 的客户端 JavaScript 框架。官网
@@ -105,7 +105,7 @@ mithril.js：Mithril 是一个客户端 MVC 框架（轻量、强大和快速）
 jsblocks：jsblocks 是一个更好的 MV-ish 框架。官网
 LiquidLava：易懂的、用于构建用户界面的 MVC 框架。官网
 Electron：用Html、CSS和JavaScript构建跨平台的客户端应用程序。官网、GitHub
-基于 Node 的 CMS 框架
+##基于 Node 的 CMS 框架
 
 KeystoneJS：强大的 CMS 和 web 应用框架。官网
 Reaction Commerce：拥有实时的架构和设计的响应式（reactive） CMS。官网
@@ -117,7 +117,7 @@ TaracotJS：拥有快速、极简风格特点且基于Node.js 的 CMS。官网
 Nodizecms：为 CoffeeScript 爱好者准备的 CMS。官网
 Cody：拥有所见即所得的编辑器的 CMS。官网
 PencilBlue：CMS 和博客平台。官网
-模板引擎
+##模板引擎
 
 模板引擎允许您执行字符串插值。
 
@@ -133,7 +133,7 @@ Jade：健壮的、优雅且功能丰富的 nodejs 模板引擎。官网
 EJS：高效的 JavaScript 模板。官网
 xtemplate：可扩展的模板引擎，适用于 node 和浏览器。官网
 marko：快速轻量且基于 HTML 的模板引擎，支持异步、流、自定义标签和 CommonJS 模编译后输出。适用于 Node.js 官网和浏览器。
-Flux
+##Flux
 
 Flux是Facebook用来构建客户端Web应用的应用架构
 
@@ -141,7 +141,7 @@ Reflux是根据React的flux创建的单向数据流类库。官网
 Redux是可预测javascript应用程序状态的容器。官网
 数据可视化
 
-Web 数据可视化工具
+##Web 数据可视化工具
 
 d3：一个对 HTML 和 SVG 进行可视化的 JavaScript 库。官网
 metrics-graphics：更简洁和拥有更规范的数据图表布局优化算法的库。官网
@@ -182,11 +182,11 @@ BabylonJS：一个运用 HTML5 和 WebGL 构建 3D 游戏的框架。官网
 jquery.raty.js：一个星级评分插件。官网
 也有一些很棒的收费库，如 amchart、plotly 和 highchart。
 
-时间轴
+##时间轴
 
 TimelineJS： 一个用 JavaScript 编写的可叙事时间轴库。官网
 timesheet.js：用于构建简单的 HTML5 & CSS3 时间表的 JavaScript 库。官网
-编辑器
+##编辑器
 
 ace：Ace（Ajax.org Cloud9 Editor）。官网
 CodeMirror：浏览器端的代码编辑器。官网
@@ -206,7 +206,7 @@ TinyMCE：JavaScript 富文本编辑器。官网
 trix：由 Basecamp 制作，适用于每天写作的富文本编辑器。官网
 文件
 
-处理文件的库。
+##处理文件的库。
 
 Papa Parse：一款强大的 CSV 库，支持解析 CSV 文件/字符串，也能导出 CSV。官网
 jBinary：对用声明式语法描述文件类型和数据结构的二进制文件，进行高级 I/O（加载、解析、操作、序列化、存储）操作。官网
@@ -221,7 +221,7 @@ lazy.js：类似 Underscore，但性能更优越官网
 ramda：一个针对 JavaScript 程序员的实用函数库。官网
 mout：模块化的 JavaScript 工具库。官网
 mesh：流数据同步工具。官网
-响应式编程
+##响应式编程
 
 响应式程序库扩展了 JavaScript 的能力。
 
@@ -230,7 +230,7 @@ Bacon：JavaScript 的 FPR（函数式响应式编程）库。官网
 Kefir：受 Bacon.js 和 RxJS 启发的 FRP 库，专注于高性能和低内存消耗。官网
 Highland：对 JavaScript 实用工具的重新思考，Highland 能轻易地管理同步和异步信息，而且仅使用标准 JavaScript 和类 Node 流。官网
 Most.js：高性能 FRP 库。官网
-数据结构
+##数据结构
 
 数据结构库用于构建一个更复杂的应用。
 
@@ -238,7 +238,7 @@ immutable-js：不可变的数据集合，包括 Sequence、Range、Repeat、Map
 mori：使用 ClojureScript 持久化数据结构和支持原生 JavaScript API 的库。官网
 buckets：完整的、经过充分测试和记录数据结构的 JavaScript 库。官网
 hashmap：简单的 hashmap 实现，支持任何类型的键值。官网
-日期
+##日期
 
 日期库。
 
@@ -249,7 +249,7 @@ timezone-js：让 JavaScript Date 对象拥有时区功能。使用 Olson zonein
 date：拥有人性化的 Date() 方法。官网
 ms.js：小巧的毫秒转换工具。官网
 timeago.js：一个非常轻量级(~1.7 Kb)的用于将时间转化成xxx时间前格式，例如：8分钟前。官网
-字符串
+##字符串
 
 字符串库。
 
@@ -263,7 +263,7 @@ URI.js：URL 操作库。官网
 jsurl：轻量的 URL 操作库。官网
 sprintf.js：实现字符串格式化。官网
 url-pattern：让 url 和其它字符串进行比正则表达式匹配更简单。字符串和数据可相互转化。官网
-数字
+##数字
 
 Numeral-js：对数字进行格式化和操作的库。官网
 odometer：流畅的数字过渡效果。官网
@@ -272,7 +272,7 @@ money.js：一个小巧（1kb）的货币转换库，适用于 web 和 nodeJS。
 Fraction.js：一个有理数库。官网
 Complex.js： 一个复数库。官网
 Polynomial.js：一个多项式库。官网
-存储
+##存储
 
 store.js：为所有浏览器封装了 LocalStorage，而没有使用 cookies 和 flash。隐秘地使用 localStorage、globalStorage 和用户数据。官网
 localForage：改善后的离线存储。其封装了 IndexedDB、WebSQL 和 localStorage，拥有操作简单和强大的 API。官网
@@ -285,7 +285,7 @@ jquery-cookie：轻量简单的、用于读取、编辑和删除 cookie 的 jQue
 Cookies：客户端 Cookie 操作库。官网
 DB.js：基于 Promise 的、封装了 IndexedDB 的库。官网
 lawnchair.js：简单的客户端 JSON 存储。官网
-颜色
+##颜色
 
 randomColor：JavaScript 颜色生成器。官网
 chroma.js：拥有各种各样颜色操作的 JavaScript 库。官网
@@ -294,19 +294,19 @@ colors：更智能的默认 web 颜色。官网
 PleaseJS：随机创建出赏心悦目的颜色和配色方案。官网
 TinyColor：快速、轻巧的颜色操作和转换库。官网
 Vibrant.js：从图像提取主要颜色。官网
-国际化和本地化（I18n And L10n）
+##国际化和本地化（I18n And L10n）
 
 本地化和国际化 JavaScript 库
 
 i18next：JavaScript 最简单的国际化（i18n）方法。官网
 polyglot：小巧的国际化助手库。官网
 babelfish：i18n 提供友好易懂的 API ，并且内置多种支持。官网
-类
+##类
 
 ClassManager：世界上最快、最方便的类系统之一。官网
 klass：用于创建极富表现力的类工具库。官网
 augment：世界上最小且最快的一流 JavaScript 继承模式。官网
-控制流
+##控制流
 
 async：适用于 node 和浏览器的异步工具库。官网
 q：实现异步的 promise JavaScript 库。官网
@@ -315,7 +315,7 @@ contra：利用函数风格实现的异步流控制。官网
 Bluebird：专注于革新功能和性能的，功能齐全的 promoise 库。官网
 when：快速可靠的、Promises/A+ 规范的 when() 实现，而且拥有异步其它的优秀特性。官网
 ObjectEventTarget：提供增加了事件监听的原型（与 DOMElement 的 EventTarget 在浏览器行为一致）。官网
-路由
+##路由
 
 director：一个小巧的、与 URL 同构的路由器。官网
 page.js：受 Express router 启发的小型客户端路由器（约为1200字节）。官网
@@ -323,11 +323,11 @@ pathjs：简单、轻量的 web 路由器。官网
 crossroads：JavaScript 路由。官网
 davis.js：使用 pushState、RESTful 风格和可降级的 JavaScript 路由器。官网
 angular-ui-router：基于AngularJS的可嵌套路由。官网
-安全性
+##安全性
 
 DOMPurify：针对 HTML、MathML 和 SVG 的仅支持DOM、快速、高容错的 XSS 过滤器。官网
 js-xss：通过白名单配置，即可过滤不信任的 HTML（防止 XSS 攻击）。官网
-日志
+##日志
 
 log：带有样式的 Console.log。官网
 Conzole：对 JavaScript 原生 console 对象方法和功能进行封装的 debug 面板，使其显示在页面内。官网
@@ -339,10 +339,10 @@ minilog：轻量的、用流式 API 显示的、可用于客户端和服务器�
 RegEx101：在线的 JavaScript 正则表达式测试器和调试器。同时支持 Python、PHP 和 PCRE。官网
 RegExr：用于创建、测试和学习正则表达式的 HTML/JS  工具。官网
 RegExpBuilder：使用链式方法创建正则表达式。官网
-媒体
+##媒体
 
 Ion.Sound：可用于任何网页上简单音频。官网
-语音命令
+##语音命令
 
 annyang：向网站添加语音命令的语音识别库。官网
 voix.js：向网站、app 或游戏添加语音命令的 JavaScript 库。官网
@@ -356,18 +356,18 @@ jquery.rest：一个让 RESTful API 更易使用的 jQuery 插件。官网
 
 tracking.js：在 web 上实现计算视觉的一种现代方法。官网
 ocrad.js：通过 Emscripten 用 JavaScript 实现 OCR（光学字符识别）。官网
-浏览器检测
+##浏览器检测
 
 bowser：一个浏览器检测器。官网
 UI
 
-代码高亮
+##代码高亮
 
 Highlight.js：JavaScript 语法高亮器。官网
 PrismJS：轻量、健壮和优雅的语法高亮器。官网
 加载状态
 
-指示加载状态的库。
+##指示加载状态的库。
 
 Mprogress.js：创建谷歌 Material 设计风格的线性进度条。官网
 NProgress：在 Ajax'y 应用显示细长型进度条官网
@@ -383,7 +383,7 @@ Ladda：内置在按钮的加载指示器。官网
 css-loaders：运用 CSS 动画的旋转加载指示器的集合。官网
 除了上述这些库，还有收藏在 Codepen 的，另外还有 Ajaxload，Preloaders 和 CSSLoad 这些生成器。
 
-验证
+##验证
 
 Parsley.js：不用写一行 JavaScript 代码即可在前端验证表单。官网
 jquery-validation：jQuery 验证插件。官网
@@ -401,7 +401,7 @@ Keypress：键入捕捉工具库，任何键都可以成为一个修饰健。官
 KeyboardJS：一个用于绑定键盘组合的 JavaScript 库，让你脱离快捷键和快捷键组合冲突的痛苦。官网
 jquery.hotkeys：jQuery Hotkeys 能让你在代码任何的地方监听键盘事件，并几乎支持所有按键组合。官网
 jwerty：令人惊叹的键盘事件处理库。官网
-浏览和引导
+##浏览和引导
 
 intro.js：这是一个介绍新功能的很好方式，能一步步地引导用户浏览你的网站和项目。官网
 shepherd：通过引导让用户浏览你的应用程序。官网
@@ -412,7 +412,7 @@ pageguide：使用 jQuery 和 CSS3 的 web 页面元素交互引导库。官网
 hopscotch：让开发者更容易向其页面产品添加引导的框架。官网
 joyride：基于 jQuery 的功能引导插件。官网
 focusable：通过向页面其余部分添加遮罩层，使焦点聚集在特定 DOM 元素。官网
-通知
+##通知
 
 messenger：为你的应用添加 Growl-style 弹框和信息（Crowl 是 Mac OS X 下的一个通知系统）。官网
 noty：jQuery 通知插件。官网
@@ -420,7 +420,7 @@ pnotify：适用于 Bootstrap、jQuery UI 和 Web Notifications Draft 的 JavaSc
 toastr：用来显示简单的，会自动到期的信息窗口）简单的弹出框通知（toast notifications官网
 humane-js：一个简单、时髦的浏览器通知系统。官网
 smoke.js：与框架无关的、能够自定义样式的 JavaScript 弹框系统。官网
-幻灯片
+##幻灯片
 
 Swiper：使用硬件加速过渡的移动设备触控滑块框架。官网
 slick：你所需要的最后一个轮播插件。官网
@@ -442,13 +442,13 @@ viewerjs：原生js实现的图片查看器。官网
 jQuery.adaptive-slider：带有自适应颜色标题和导航的幻灯片 jQuery 插件。官网
 slidr：可添加一些幻灯片效果。官网
 Flickity：可触摸的、响应式的和可轻弹的画廊。官网
-滑块控件
+##滑块控件
 
 Ion.RangeSlider：强大的、易于自定义的范围滑块选择库，支持很多配置和皮肤。官网
 jQRangeSlider：支持日期的滑块选择库。官网
 noUiSlider：轻量无冗余的、高度定制化的滑块选择库。官网
 rangeslider.js：HTML5  input 区域滑块元素。官网
-表单组件
+##表单组件
 
 输入
 
@@ -460,7 +460,7 @@ fancyInput：利用 CSS3 效果让输入更有趣。官网
 jQuery-Tags-Input：利用这个 jQuery 插件，可奇妙地将一个简单的文本输入转换成一个酷酷的标签列表。官网
 vanilla-masker：一个纯 JavaScript 实现的输入控制库。官网
 Ion.CheckRadio：一个为复选框和单选按钮添加样式的 jQuery 库，支持多种皮肤。官网
-日历
+##日历
 
 pickadate.js：对移动设备友好的、响应式的和轻量的 jQuery 日期 & 时间输入选择器。官网
 bootstrap-datepicker：基于 bootstrap 的日历选择器。官网
@@ -473,7 +473,7 @@ datedropper： datedropper 是一个 jQuery 插件，它提供了快速简易的
 selectize.js：Selectize 是文本框和选择框的混合体。它基于jQuery，拥有自动完成和键盘感应下拉列表功能，可用于标签、联系人列表等。官网
 select2：它基于 jQuery，是选择框（select box）的替代品。支持搜索、远程数据集和无限滚动。官网
 chosen：可以让冗长不便的选择框更友好的库。官网
-文件上传
+##文件上传
 
 jQuery-File-Upload：File Upload 是一个支持多文件选择、文件拖放、进度条、验证和图片、音频、视频预览的 官网jQuery 插件。
 dropzone：Dropzone 是一个易于使用且支持多文件拖放的库。其支持图片预览并且拥有很好的进度条效果。官网
@@ -534,7 +534,7 @@ floatThead：（jQuery 插件）锁定表格头部，只允许表格内容滚动
 Masonry：瀑布流式的网格布局库。官网
 Packery：使用装箱算法（bin-packing）的网格布局库。支持拖拽布局。官网
 Isotope：可过滤和可排序的网格布局的库，它能实现 Masonry、Packery 等布局。官网
-框架
+##框架
 
 Semantic UI：拥有大量主题和元素的 UI 套件。官网
 手势
@@ -542,12 +542,12 @@ Semantic UI：拥有大量主题和元素的 UI 套件。官网
 hammer.js：拥有多种触摸手势的 JavaScript 库。官网
 touchemulator：在桌面电脑模仿触摸输入。官网
 Dragula：超级易于使用的拖拽库。官网
-触摸
+##触摸
 
 fastclick.js：去除触屏用户300ms点击延误。官网
 dropload.js：移动端下拉刷新，上拉加载更多。官网
 touchslide.js：触屏滑动特效。官网
-地图
+##地图
 
 Leaflet：对移动设备友好的、可交互的地图 JavaScript 库。官网
 Cesium：开源的、基于 WebGL 实现的虚拟地球仪和地图引擎。官网
@@ -566,7 +566,7 @@ polyplayer：将 YouTube、Soundcloud 和 Vimeo 播放器的 API 统一成一套
 flowplayer： HTML5 视频播放器 官网、Github
 mediaelement：让 HTML5、 Flash 播放器和模仿 HTML5 媒介元素 API 的 Silverlight shim，在所有浏览器拥有一致的 UI。官网、Github
 SoundJS：让音频在 web 上运行更简单的库。它为不同浏览器提供了一致的 API。官网
-动画
+##动画
 
 velocity：加速 JavaScript 动画。官网
 jquery.transit：拥有超级流畅的 CSS3 变换和过渡的 jQuery 插件。官网
@@ -575,7 +575,7 @@ bounce.js：可以立刻创建有趣的 CSS3 动画。官网
 GreenSock-JS：适用于所有主流浏览器的高性能 HTML5 动画。官网
 TransitionEnd：TransitionEnd 是一个运用 transitonend 事件的、跨浏览器的库。官网
 Dynamics.js：用于创建基于物理知识的 CSS 动画库。官网
-图片处理
+##图片处理
 
 lena.js：拥有滤镜和实用功能的图像处理库。官网
 pica：高质量地调整图片大小（拥有快速的、纯 JS 实现的 Lanczos 滤镜算法）。官网
@@ -591,7 +591,7 @@ Traceur compiler：ES6 特性转 ES5。包括 classes、generators、promises、
 软件开发工具包(SDK)
 
 javascript-sdk-design：从工作和个人经验中提炼出来的 JavaScript SDK 设计指导。官网
-大杂烩
+##大杂烩
 
 echo：利用 data-* 属性延迟加载图片。官网
 picturefill：响应式图片显示插件，使浏览器支持 srcset、size 属性。官网
